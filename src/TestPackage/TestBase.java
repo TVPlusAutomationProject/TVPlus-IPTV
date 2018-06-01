@@ -20,7 +20,7 @@ public abstract class TestBase {
   }
   @BeforeClass
   public void beforeClass() {
-	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\o00415773\\eclipse-workspace\\TV+ Automation\\libs\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", ".\\libs\\chromedriver.exe");
 	  driver = new ChromeDriver();
 	  driver.manage().window().maximize();
 	  driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
